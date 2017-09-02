@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="homepage" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Jungle Side Resort" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/home.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="offer" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Jungle Side Resort" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/offer.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="profile" template="/layouts/template.jsp">
+		<put-attribute name="title" value="User Profile" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/profile.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="CustomerLogin" template="/layouts/template.jsp">
+		<put-attribute name="title" value="User Login" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/CustomerLogin.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="AdminLogin" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Admin Login" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AdminLogin.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="AddCustomer" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Add Customer" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AddCustomer.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+<definition name="AddAdmin" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Add Admin" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AddAdmin.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="addRoom" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Add room" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AddRoom.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="AllRoomsList" template="/layouts/template.jsp">
+		<put-attribute name="title" value="All room" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AllRoomsList.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="AvailableRoomsList" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Available room" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AvailableRoomsList.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="UpdateRoom" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Update room" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/UpdateRoom.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="roomDetail" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Update room" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/roomDetail.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="login" template="/layouts/template.jsp">
+		<put-attribute name="title" value="User Login" />
+		<put-attribute name="header" value="/tiles/login.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/AddRoom.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="siteHome" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Site homepage" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/home.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="login" template="/layouts/template.jsp">
+		<put-attribute name="title" value="Site login" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<!-- <put-attribute name="menu" value="/tiles/menu.jsp" /> -->
+		<put-attribute name="body" value="/views/login.jsp" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="contactpage" extends="homepage">
+		<put-attribute name="title"
+			value="Spring Boot Tiles AJAX | Contact Form" />
+		<put-attribute name="body" value="/views/contact.jsp" />
+	</definition>
+</tiles-definitions>
