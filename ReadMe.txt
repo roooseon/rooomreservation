@@ -17,7 +17,7 @@ Logout
 Technologies Used : Java7, JSP, Maven, MySQL, HTML5, CSS3, JavaScript, Bootstrap, Eclipse, Git, Spring, Hibernate, CRUD data repository, JSON, RESTful, Spring Boot
 
 Main Pages: 
-localhost8080 (root)
+localhost:8080 (root)
 localhost:8080/adminlogin
 localhost:8080/customerlogin
 localhost:8080/allroomslist (only accessable by Admin)
