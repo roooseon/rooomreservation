@@ -1,7 +1,5 @@
 Hotel Room Booking System
 
-Academic Project : Web Application Architecture (Maharishi University of Management)
-
 This hotel reservation system is a Maven project created in Spring Boot using spring data JPA along with integrated RESTful web service and well managed scopes . The project allows a system admin to add update or delete rooms in the resort and users/customers can book the room if available. A confirmation email is sent to the customer whenever s/he books a room. The booked room will be available automatically after the reservation period is over. Users/customers can login and view his profile and also see their room booking details.
 
 Some additional features:
